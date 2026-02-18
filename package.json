@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+    "dev": "node init && ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "dependencies": {
     "@prisma/adapter-neon": "^7.3.0",
@@ -20,6 +20,7 @@
     "multer": "^2.0.2",
     "multer-storage-cloudinary": "^4.0.0",
     "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
     "nodemailer": "^8.0.1",
     "path": "^0.12.7",
     "pg": "^8.18.0",
